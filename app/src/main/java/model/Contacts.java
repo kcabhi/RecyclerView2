@@ -1,4 +1,4 @@
-package com.e.recyclerview;
+package model;
 
 public class Contacts {
     private String name;
@@ -10,6 +10,7 @@ public class Contacts {
         this.phoneNo = phoneNo;
         this.imageID = imageID;
     }
+
     public String getName() {
         return name;
     }
@@ -33,5 +34,4 @@ public class Contacts {
     public void setImageID(int imageID) {
         this.imageID = imageID;
     }
-
 }
